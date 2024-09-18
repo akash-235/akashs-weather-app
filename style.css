@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: skyblue; /* Change background color to skyblue */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white; /* Optional: Background color for the container */
+    padding: 20px; /* Optional: Add some padding to the container */
+    border-radius: 8px; /* Optional: Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+#cityInput {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Optional: Rounded corners for input */
+}
+
+#getWeather {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px; /* Optional: Rounded corners for button */
+}
+
+#getWeather:hover {
+    background-color: #0056b3;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+}
